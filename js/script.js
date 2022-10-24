@@ -20,6 +20,6 @@ function calculate() {
   const taxes = (hours * rate) * TAX_RATE
 
   // output
-  document.getElementById('pay').innerHTML = 'Your Payment Is Around' + pay + '.'
-  document.getElementById('taxes').innerHTML = 'Your Taxes Are Around' + taxes + '.'
+  document.getElementById('pay').innerHTML = 'Your Payment Is Around ' + pay + '.'
+  document.getElementById('taxes').innerHTML = 'Your Taxes Are Around ' + taxes + '.'
 }
