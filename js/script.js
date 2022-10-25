@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Sam Corbett All rights reserved
 //
 // Created by: Sam Corbett
-// Created on: Sep 2022
+// Created on: O 2022
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -21,7 +21,7 @@ function calculate() {
 
   // output
   document.getElementById("pay").innerHTML =
-    "Your Payment Is Around " + pay + "."
+    'Your Payment will be at: $' + pay.toFixed(2) 
   document.getElementById("taxes").innerHTML =
-    "Your Taxes Are Around " + taxes + "."
+    'Your Taxs Would Be At: $' + taxes.toFixed(2)
 }
