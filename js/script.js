@@ -23,5 +23,5 @@ function calculate() {
   document.getElementById("pay").innerHTML =
     "Your Payment will be at: $" + pay.toFixed(2)
   document.getElementById("taxes").innerHTML =
-    "Your Taxs Would Be At: $" + taxes.toFixed(2)
+    "Your Taxes Would Be At: $" + taxes.toFixed(2)
 }
