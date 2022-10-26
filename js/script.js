@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Sam Corbett All rights reserved
 //
 // Created by: Sam Corbett
-// Created on: O 2022
+// Created on: Oct 2022
 // This file contains the JS functions for index.html
 
 "use strict"
